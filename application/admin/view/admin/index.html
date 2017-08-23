@@ -1,0 +1,60 @@
+
+    <div class="row J_mainContent" id="content-main">
+        <!-- <iframe class="J_iframe" name="iframe0" width="100%" height="100%" src="index_v1.html?v=4.0" frameborder="0" data-id="index_v1.html" seamless></iframe> -->
+        <div class="wrapper wrapper-content">
+            <div class="row">
+                <table class="table table-striped">
+                    <h2 class="text-center">服务器信息</h2>
+                    <tr>
+                        <th>系统环境</th>
+                        <td>{$serverInfo['server_version']}</td>
+                    </tr>
+                    <tr>
+                        <th>服务器时间</th>
+                        <td>{$serverInfo['server_time']}</td>
+                    </tr>
+                    <tr>
+                        <th>浏览器类型</th>
+                        <td>{$serverInfo['browser_type']}</td>
+                    </tr>
+                    <tr>
+                        <th>文件上传限制</th>
+                        <td>{$serverInfo['max_upload']}</td>
+                    </tr>
+                    <tr>
+                        <th>脚本执行时限</th>
+                        <td>{$serverInfo['max_ex_time']}</td>
+                    </tr>
+                     <tr>
+                        <th>文档根目录</th>
+                        <td>{$serverInfo['web_root']}</td>
+                    </tr>
+                    <tr>
+                        <th>CGI 规范版本</th>
+                        <td>{$serverInfo['gateway_interface']}</td>
+                    </tr>
+                    <tr>
+                        <th>服务器IP</th>
+                        <td>{$serverInfo['server_addr']}</td>
+                    </tr>
+                    <tr>
+                        <th>服务器的名称</th>
+                        <td>{$serverInfo['server_name']}</td>
+                    </tr>
+                    <tr>
+                        <th>服务器SERVER_ADMIN 参数</th>
+                        <td>{$serverInfo['server_admin']}</td>
+                    </tr>
+                    <tr>
+                        <th>服务器使用端口</th>
+                        <td>{$serverInfo['server_port']}</td>
+                    </tr>
+                    <tr>
+                        <th>通信协议的名称和版本</th>
+                        <td>{$serverInfo['server_portocol']}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
